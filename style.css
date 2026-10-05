@@ -1,0 +1,18 @@
+body{
+    text-align:center;
+    background-color:white;
+}
+
+.container{
+    justify-content:center;
+    display:grid;
+    grid-template-rows: repeat(3,100px);
+    grid-template-columns: repeat(3, 100px);
+}
+
+.square {
+    background-color: teal;
+    width: 100px;
+    height: 100px;
+    border: solid 2px black;
+}
