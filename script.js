@@ -1,4 +1,3 @@
-// HTML Elements
 const resetButton = document.querySelector('#reset');
 const currentPlayer = document.querySelector('#current-player');
 const squares = document.querySelectorAll('.square');
@@ -58,7 +57,7 @@ function checkWinner() {
     if (first !== '' && first === second && first === third) {
       gameOver = true;
       if (messageText) {
-        messageText.textContent = first + ' wins!';
+        messageText.textContent = first + ' won the game!';
       }
 
       if (first === 'X') {
