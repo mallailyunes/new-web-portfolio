@@ -1,3 +1,5 @@
+console.log("hello world");
+
 const resetButton = document.querySelector('#reset');
 const currentPlayer = document.querySelector('#current-player');
 const squares = document.querySelectorAll('.square');
