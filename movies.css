@@ -12,3 +12,41 @@ header{
     padding:16px;
     background-color:black;
 }
+
+.nav-btn{
+    padding-top: 10px;
+    padding-bottom:10px;
+    padding-left:20px;
+    padding-right:10px;
+    border: 2px solid white;
+    border-radius:20px;
+    background-color:transparent;
+    color:white;
+    transition-duration:0.3s;
+}
+
+.nav-btn:hover{
+    background-color:white;
+    color:black;
+}
+
+.movie-grid{
+    display:grid;
+    grid-template-columns: repeat(4);
+    gap:24px;
+    padding:32px;
+}
+
+.poster{
+    aspect-ratio: calc(2/3);
+    background-color:teal;
+    border-radius:8px;
+}
+
+.card{
+    background-color:#1F1F1F;
+    border-radius:12px;
+    padding:12px;
+    transition:0.3 ease;
+
+}
